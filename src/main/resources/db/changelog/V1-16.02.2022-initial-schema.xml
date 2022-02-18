@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd"
+        logicalFilePath="V1-16.02.2022-initial-schema.xml">
+
+    <changeSet id="create-users-table" author="v.sokorenko">
+        <sql>
+            CREATE TABLE users(
+            id BIGINT NOT NULL PRIMARY KEY,
+            fio VARCHAR(1024) NOT NULL
+            );
+        </sql>
+    </changeSet>
+
+    <changeSet id="populate-users-table" author="v.sokorenko">
+        <sql>
+            INSERT into users
+            VALUES (1,'Test Testov');
+        </sql>
+    </changeSet>
+
+</databaseChangeLog>

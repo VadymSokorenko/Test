@@ -1,0 +1,92 @@
+Starting DemoApplication using Java 11.0.2 on NBK-130 with PID 21224 (C:\Users\vadym.sokorenko\IdeaProjects\demo\target\classes started by vadym.sokorenko in C:\Users\vadym.sokorenko\IdeaProjects\demo)
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.56]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1486 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test_db'
+Set default schema name to PUBLIC
+Successfully acquired change log lock
+Reading resource: db/changelog/V1-16.02.2022-initial-schema.xml
+Creating database history table with name: PUBLIC.DATABASECHANGELOG
+Reading from PUBLIC.DATABASECHANGELOG
+Custom SQL executed
+ChangeSet V1-16.02.2022-initial-schema.xml::create-users-table::v.sokorenko ran successfully in 11ms
+Custom SQL executed
+ChangeSet V1-16.02.2022-initial-schema.xml::populate-users-table::v.sokorenko ran successfully in 4ms
+Successfully released change log lock
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.6.5.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started DemoApplication in 4.632 seconds (JVM running for 6.287)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 2 ms
+
+
+processing request:
+2022-02-18T00:53:51.344359500
+{"id":1}
+{"fio":"Test Testov"}
+=== encryption: b3WS7jiMg7ekF8n8Y+adeA==
+=== decryption: {"id":1}
+=== encryption: Au2zzGbdJplRgTpNiq7n6hRjMNpZTQzubLB8hyKVTkg=
+=== decryption: {"fio":"Test Testov"}
+Starting DemoApplication using Java 11.0.2 on NBK-130 with PID 20020 (C:\Users\vadym.sokorenko\IdeaProjects\demo\target\classes started by vadym.sokorenko in C:\Users\vadym.sokorenko\IdeaProjects\demo)
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.56]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1481 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test_db'
+Set default schema name to PUBLIC
+Successfully acquired change log lock
+Reading resource: db/changelog/V1-16.02.2022-initial-schema.xml
+Creating database history table with name: PUBLIC.DATABASECHANGELOG
+Reading from PUBLIC.DATABASECHANGELOG
+Custom SQL executed
+ChangeSet V1-16.02.2022-initial-schema.xml::create-users-table::v.sokorenko ran successfully in 11ms
+Custom SQL executed
+ChangeSet V1-16.02.2022-initial-schema.xml::populate-users-table::v.sokorenko ran successfully in 3ms
+Successfully released change log lock
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.6.5.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started DemoApplication in 4.683 seconds (JVM running for 6.376)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+
+
+processing request:
+2022-02-18T00:54:34.690858300
+{"id":1}
+{"fio":"Test Testov"}
+=== encryption: tgAITyVP7dqilNjoBsooxw==
+=== decryption: {"id":1}
+=== encryption: 0ACmTGwE6IP9yiuvyj5u+CONlI/5agFVFCdUpmUzqzA=
+=== decryption: {"fio":"Test Testov"}
